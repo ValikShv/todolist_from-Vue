@@ -7,8 +7,8 @@
         <hr>
         <todolist
                 v-if="todos.length"
-                v-bind:todos="todos"
-                @remove-todo="remove-todo"
+                v-bind:todos = "todos"
+                @remove-todo = "removeTodog"
         />
         <p v-else>No todos</p>
     </div>
